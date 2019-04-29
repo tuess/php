@@ -14,5 +14,6 @@ teacher表，四个字段，分别是teacherid int(10) not null primary key,teac
 student表，两个字段（应该不止），分别是studentid int(10) not null primary key,studentname varchar(10) not null。
 menu表，三个字段，分别是role varchar(10) not null,menuname varchar(10) not null,url varchar(10) not null。  
 
-管理员有教师管理，添加教师，修改教师三个功能，教师有学生管理，添加学生，修改学生三个功能，学生有查看信息一个功能。管理员教师学生都共有两个url,修改密码和退出登录，所以url应该加上..
+管理员有教师管理，添加教师，修改教师三个功能，教师有学生管理，添加学生，修改学生三个功能，学生有查看信息一个功能。管理员教师学生都共有两个url,修改密码和退出登录，所以url应该加上..  
+
 **此项目非常适合大学新生做课设使用！！！**
