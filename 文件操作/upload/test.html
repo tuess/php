@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+</head>
+<body>
+	1到10的和是：
+	<script type="text/javascript">
+		var a=0;
+		for(var i=0;i<=10;i++)
+		{
+			a+=i;
+		}
+		document.write(a);
+	</script>
+	<br>
+	1到10的奇数和是：
+	<script type="text/javascript">
+		var a=0;
+		for (var i=0;i<=10;i++)
+		{
+			if(i%2==1)
+			{
+				a+=i;
+			}
+		}
+		document.write(a);
+	</script>
+		<br>
+	1到10的偶数和是：
+	<script type="text/javascript">
+		var a=0;
+		for (var i=0;i<=10;i++)
+		{
+			if(i%2==0)
+			{
+				a+=i;
+			}
+		}
+		document.write(a);
+	</script>
+	<br>
+	数组的元素依次是：
+	<script type="text/javascript">
+		a=new Array(0,1,2,3,4,5,6,7,8,9)
+		for(var i=0;i<a.length;i++)
+		{
+			document.write(a[i]);
+		}
+	</script>
+	<br>
+	<select>
+		<option id="American" onclick="f(12)">美国</option>
+		<option id="China" onclick="f(34)">中国</option>
+		<option id="Tai" onclick="f(18)">泰国</option>
+	</select>
+	<script type="text/javascript">
+		function f(i)
+		{
+			alert("有"+i+"个城市");
+		}
+	</script>
+</body>
+</html>
