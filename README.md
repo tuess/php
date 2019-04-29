@@ -1,7 +1,8 @@
 # php
 php学习笔记
 学习php时的自己手敲的基本代码，注释繁多。
-所用集成环境位Wamp3.1.7。
+所用集成环境位Wamp3.1.7。  
+
 包含了各种php的基本知识，<验证码>中写了一个可以输出验证码图片的php文件，可以修修改改之后直接加到网页上。
 <project>中是自己写的一个php+mysql的信息管理系统，大体功能完成了70%，mysql中存储了四张表，放在project数据库中，四张表分别是admin,teacher,student,menu。分别存放着管理员，教师，学生，各个身份的菜单的数据。
 admin表,两个字段，分别是adminid int(10) not null primary key;pwd int(10) not null。
